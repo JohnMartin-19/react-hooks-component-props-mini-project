@@ -1,9 +1,10 @@
-function header({jina}){
-    const jina= 'This is me' 
-    return(
-       
-        <h1>{jina}</h1>
+
+function Header({name}){
+    return (
+        <header>
+            <h1>{name}</h1>
+        </header>
     )
 }
 
-export default header
+export default Header

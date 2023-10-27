@@ -1,14 +1,11 @@
-function about({source}){
-    const source= {
-        srcs : "../images/demo.png"
-        
-    }
+
+function About(props){
     return(
         <aside>
-            <img src={source} alt="blog logo"/>
-            <p>{about}</p>
+            <img src={props.source} placeholder={props.placeholder} alt={props.attribute}/>
+            <p>{props.abtTxt}</p>
         </aside>
     )
 }
 
-export default about
+export default About
